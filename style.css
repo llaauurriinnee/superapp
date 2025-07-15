@@ -1128,7 +1128,7 @@ article#block-about h1{
 h2,
 h2.notion-heading{
   margin-bottom: 0.75rem !important;
-  font-size: 1.72rem !important;
+  font-size: 2rem !important;
 }
 
 @media (min-width: 1024px){
@@ -1141,7 +1141,7 @@ h2.notion-heading{
 h3,
 h3.notion-heading{
   margin-bottom: 0.5rem !important;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   letter-spacing: 0.05em !important;
 }
 
@@ -1739,4 +1739,10 @@ article[id^=block-work-] .notion-image.full-width + .notion-column-list{
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+/*custom code*/
+
+.notion-icon__page{
+  display:none; !important
 }
