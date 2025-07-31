@@ -979,7 +979,7 @@ video {
   color: color-mix(in srgb, var(--navbar-text-color) 100%, var(--navbar-text-color));
 }
 .text-text-color-medium{
-  color: color-mix(in srgb, var(--navbar-text-color) 60%, transparent);
+  color: color-mix(in srgb, var(--navbar-text-color) 100%, transparent);
 }
 .text-theme-color{
   color: var(--navbar-background-color);
@@ -1140,12 +1140,6 @@ h2.notion-heading{
 
 
 
-p,
-li{
-  font-size: 1.1rem !important;
-  line-height: 1.55 !important;
-  color: color-mix(in srgb, var(--navbar-text-color) 100%, transparent) !important;
-}
 p a,
 li a{
   font-weight: 400 !important;
