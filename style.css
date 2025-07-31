@@ -1149,7 +1149,7 @@ p,
 li{
   font-size: 1.1rem !important;
   line-height: 1.55 !important;
-  color: color-mix(in srgb, var(--navbar-text-color) 60%, transparent) !important;
+  color: color-mix(in srgb, var(--navbar-text-color) 100%, transparent) !important;
 }
 p a,
 li a{
